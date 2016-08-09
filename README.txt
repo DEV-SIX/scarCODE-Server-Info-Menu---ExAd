@@ -8,7 +8,7 @@ INSTALL
 	
 class scarCode
 	{
-		title = "Server Menu";
+		title = "Server Info Menu";
 		controlID = 66000;					//IDC:66000 -> 66005 || These need to be unique and out of range from each other
 		logo = "ExadClient\XM8\Apps\scarCODE_Info\Icon.paa";
 		onLoad = "ExAdClient\XM8\Apps\scarCODE_Info\onLoad.sqf";
