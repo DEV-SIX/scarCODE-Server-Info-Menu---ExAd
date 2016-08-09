@@ -1,5 +1,7 @@
 scarCODE-Server-Info-Menu---ExAd
 
+** I DO NOT TAKE CREDIT FOR MAKING THE MENU OR EXAD **
+
 INSTALL
 1. Go to your Config.cpp (Inside your mission file (Exile.Altis) and find class CfgXM8. Then Add this to your class CfgXM8..
 class CfgXM8
