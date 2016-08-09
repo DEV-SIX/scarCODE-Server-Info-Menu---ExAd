@@ -2,14 +2,14 @@ scarCODE-Server-Info-Menu---ExAd
 
 INSTALL
 1. Go to your Config.cpp (Inside your mission file (Exile.Altis) and find class CfgXM8. Then Add this to your class CfgXM8..
-2. class CfgXM8
+class CfgXM8
 {
 	extraApps[] = {"scarCode"};
 	
-class scarCode
+	class scarCode
 	{
 		title = "Server Info Menu";
-		controlID = 66000;					//IDC:66000 -> 66005 || These need to be unique and out of range from each other
+		controlID = 66000;			
 		logo = "ExadClient\XM8\Apps\scarCODE_Info\Icon.paa";
 		onLoad = "ExAdClient\XM8\Apps\scarCODE_Info\onLoad.sqf";
 		onOpen = "ExAdClient\XM8\Apps\scarCODE_Info\onOpen.sqf";
@@ -18,7 +18,9 @@ class scarCode
 }; 
 
 3. Drag and drop the scarCode folder into the root of your mission file. (Exile.Altis)
+
 4. Go to your Description.ext located inside your mission file. And paste this at the bottom of your description.ext.
+
 #include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
 #include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
 
@@ -31,3 +33,9 @@ DONE!!
 ///////////////////
 
 Now head over to Exile.Altis\scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp to customize whatever you want!
+
+
+---	CREDIT	----
+Original Code - IT07
+ExAd - Janski
+Thanks John for helping me!
